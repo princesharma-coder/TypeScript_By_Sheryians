@@ -11,4 +11,5 @@ enum StatusCode {
 }
 
 // now if i need to use the enum i can use it like this
-StatusCode.NotFound; // 404
+console.log(StatusCode.NotFound); // 404    
+
